@@ -28,7 +28,8 @@ consolee.log({
 
 ## props
 
-- **el**: html element para hacer referencia al error
-- **link**: url hacia mas información sobre el error
-- **text**: string con la información del console
-- **title**: titulo del console
+- **el**: html element para hacer referencia al error.
+- **link**: url hacia mas información sobre el error.
+- **text**: string con la información del console.
+- **title**: titulo del console.
+
