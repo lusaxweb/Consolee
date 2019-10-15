@@ -3,13 +3,29 @@
   "version": "0.1.11",
   "description": "Simple Javascript Console Style",
   "main": "dist/consolee.js",
+  "homepage": "https://lusaxweb.github.io/vuesax/#/",
+  "repository": "lusaxweb/Consolee",
   "scripts": {
     "build": "npx webpack --config build/lib/webpack.lib.js",
     "p": "npm version patch && npm publish --access public",
     "deploy": "npm run build && npm run p"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "console",
+    "log",
+    "javascript",
+    "style",
+    "consolee",
+    "library",
+    "frontend",
+    "warn",
+    "error",
+    "success"
+  ],
+  "bugs": {
+    "url": "https://github.com/lusaxweb/Consolee/issues"
+  },
+  "author": "ldrovira <luisdanielrovira8@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.4",
