@@ -25,7 +25,7 @@ consolee.log({
 })
 ```
 
-<img width="40%" src="https://raw.githubusercontent.com/lusaxweb/Consolee/master/public/img/log.jpg" alt="vuesax" />
+<img width="40%" src="https://raw.githubusercontent.com/lusaxweb/Consolee/master/img/log.jpg" alt="vuesax" />
 
 ## props
 
