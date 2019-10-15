@@ -1,0 +1,28 @@
+{
+  "name": "consolee",
+  "version": "0.1.10",
+  "description": "Simple Javascript Console Style",
+  "main": "dist/consolee.js",
+  "scripts": {
+    "build": "npx webpack --config build/lib/webpack.lib.js",
+    "p": "npm version patch && npm publish --access public",
+    "deploy": "npm run build && npm run p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-merge": "^4.2.2",
+    "webpackbar": "^4.0.0"
+  }
+}
