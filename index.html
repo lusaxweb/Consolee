@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Example</title>
+</head>
+<body>
+  <button id="btn">
+    Hi, <b>Consolee</b>
+  </button>
+
+  View in Console browser
+</body>
+<script src="dist/consolee.js"></script>
+<script>
+  consolee.log({
+      el: document.getElementById('btn'),
+      link: 'https://github.com/lusaxweb/Consolee',
+      text: `• Warn info: El formato de la propiedad color es incorrecto
+• Prop: color
+• value: Example
+• Valores Permitidos: (RGB, HEX, RGB Numbers, Vuesax Colors)
+• Example: color="#000" or color="rgb(255,255,255)"`,
+      title: 'CONSOLEE'
+    })
+  consolee.warn({
+      el: document.getElementById('btn'),
+      link: 'https://github.com/lusaxweb/Consolee',
+      text: `• Warn info: El formato de la propiedad color es incorrecto
+• Prop: color
+• value: Example
+• Valores Permitidos: (RGB, HEX, RGB Numbers, Vuesax Colors)
+• Example: color="#000" or color="rgb(255,255,255)"`,
+      title: 'CONSOLEE'
+    })
+  consolee.error({
+      el: document.getElementById('btn'),
+      link: 'https://github.com/lusaxweb/Consolee',
+      text: `• Warn info: El formato de la propiedad color es incorrecto
+• Prop: color
+• value: Example
+• Valores Permitidos: (RGB, HEX, RGB Numbers, Vuesax Colors)
+• Example: color="#000" or color="rgb(255,255,255)"`,
+      title: 'CONSOLEE'
+    })
+  consolee.success({
+      el: document.getElementById('btn'),
+      link: 'https://github.com/lusaxweb/Consolee',
+      text: `• Warn info: El formato de la propiedad color es incorrecto
+• Prop: color
+• value: Example
+• Valores Permitidos: (RGB, HEX, RGB Numbers, Vuesax Colors)
+• Example: color="#000" or color="rgb(255,255,255)"`,
+      title: 'CONSOLEE'
+    })
+</script>
+</html>
