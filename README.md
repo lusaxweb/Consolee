@@ -25,12 +25,13 @@ consolee.log({
 })
 ```
 
-<img width="40%" src="https://raw.githubusercontent.com/lusaxweb/Consolee/master/img/log.jpg" alt="vuesax" />
+<img width="100%" src="https://raw.githubusercontent.com/lusaxweb/Consolee/master/img/log.jpg" alt="vuesax" />
+<img width="100%" src="https://raw.githubusercontent.com/lusaxweb/Consolee/master/img/logMoz.jpg" alt="vuesax" />
 
 ## props
 
-- **el**: html element para hacer referencia al error.
-- **link**: url hacia mas información sobre el error.
-- **text**: string con la información del console.
-- **title**: titulo del console.
+- **el**: Html element to refer to the error.
+- **link**: Url to more information about the error.
+- **text**: String with console information.
+- **title**: Console title.
 
