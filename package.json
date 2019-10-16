@@ -1,6 +1,6 @@
 {
   "name": "consolee",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Simple Javascript Console Style",
   "main": "dist/consolee.js",
   "homepage": "https://lusaxweb.github.io/vuesax/#/",
