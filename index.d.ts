@@ -1,5 +1,3 @@
-
-
 interface Iconsolee {
   warn: any
 }
